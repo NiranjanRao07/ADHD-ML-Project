@@ -36,14 +36,6 @@ This repository contains all code, data, and artifacts for our project on automa
      - F1-Score: 75.9 %
      - ROC AUC: 78.8 %
 
-## ⚙️ Installation & Usage
-
-```bash
-git clone [https://github.com/YourUsername/ADHD-EEG-Classification.git](https://github.com/YourUsername/ADHD-EEG-Classification.git)
-cd ADHD-EEG-Classification
-jupyter notebook
-```
-
 Explore raw data: run `analyze_files.py`
 Preprocess & extract features: open and execute `data_preprocess.ipynb` and `feature_extraction.ipynb`
 Train & evaluate models: implement LDA on train split, train classifiers, build ensemble
