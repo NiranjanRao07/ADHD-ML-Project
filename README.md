@@ -1,4 +1,4 @@
-```markdown
+```
 # ADHD Detection from EEG Data
 
 This repository contains all code, data, and artifacts for our project on automated ADHD detection using 19-channel EEG recordings and classical machine learning techniques.
