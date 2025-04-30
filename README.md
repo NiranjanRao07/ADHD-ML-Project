@@ -1,25 +1,6 @@
-```
 # ADHD Detection from EEG Data
 
 This repository contains all code, data, and artifacts for our project on automated ADHD detection using 19-channel EEG recordings and classical machine learning techniques.
-
-## 📂 Repository Structure
-```
-.
-├── Channel_Labels.docx          # Mapping of EEG channel indices → standard 10-20 labels
-├── Project-Slides.pptx          # Final presentation slides (PowerPoint)
-├── README.md                    # This file
-├── analyze_files.py             # Explore raw .mat EEG files & extract basic stats
-├── understanding_the_data.py    # Compute summary statistics (mean, SD, etc.)
-├── data_preprocess.ipynb        # Filtering, z-score normalization, artifact removal
-├── feature_extraction.ipynb     # Compute time-, frequency-, and non-linear features
-├── test-1.ipynb                 # Early model prototyping
-├── time_features.csv            # Aggregated time-domain features for all subjects
-├── freq_features.csv            # Aggregated frequency-domain features
-├── nonlinear_features_all.csv   # Aggregated non-linear/complexity features
-├── merged_features.csv          # Combined feature matrix (458 features)
-└── features_selected.csv        # (Generated) LDA-projected single discriminant axis
-```
 
 ## 🔍 Overview
 
